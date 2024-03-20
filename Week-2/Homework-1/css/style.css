@@ -41,7 +41,17 @@ ol {
     text-align: center;
 }
 
-body>ul {
-    list-style-position: inside;
-    text-align: center;
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pad li {
+    padding: 20px 0;
+}
+
+.pad img {
+    padding-top: 10px;
 }
