@@ -1,0 +1,47 @@
+html {
+    background-color: lightblue;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: darkcyan;
+    text-align: center;
+}
+
+h3 {
+    color: darkcyan;
+    text-align: center;
+}
+
+nav>ul {
+    background-color: lightblue;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav>ul>li {
+    
+    /* background-color: lightblue; */
+    /* color: darkcyan; */
+    font-size: large;
+    display: inline;
+    margin-right: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+ol {
+    list-style-position: inside;
+    text-align: center;
+}
+
+body>ul {
+    list-style-position: inside;
+    text-align: center;
+}
